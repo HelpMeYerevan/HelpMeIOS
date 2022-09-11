@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="155" id="KGk-i7-Jjw" customClass="WorkersTableViewCell" customModule="help_me" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="86"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="86"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="j3c-mj-f8q">
+                        <rect key="frame" x="16" y="0.0" width="70" height="70"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="70" id="2ID-ER-AxE"/>
+                            <constraint firstAttribute="width" secondItem="j3c-mj-f8q" secondAttribute="height" multiplier="1:1" id="guq-2x-h4c"/>
+                        </constraints>
+                    </imageView>
+                    <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_verified_user" translatesAutoresizingMaskIntoConstraints="NO" id="TXv-HH-hXf">
+                        <rect key="frame" x="62.5" y="53.5" width="18.5" height="18.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="TXv-HH-hXf" secondAttribute="height" multiplier="1:1" id="a3T-jZ-yPJ"/>
+                        </constraints>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="jAW-8o-b3d">
+                        <rect key="frame" x="96" y="14" width="208" height="42"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Beatrice Avagimyan" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DcT-nv-m9t">
+                                <rect key="frame" x="0.0" y="0.0" width="208" height="12"/>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="10"/>
+                                <color key="textColor" name="292E39"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.40000000596046448" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Category name..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q3X-j8-NFF">
+                                <rect key="frame" x="0.0" y="15" width="208" height="12"/>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="10"/>
+                                <color key="textColor" name="292E39"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="0DP-Rz-aKu">
+                                <rect key="frame" x="0.0" y="30" width="208" height="12"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_star" translatesAutoresizingMaskIntoConstraints="NO" id="co1-PM-A3c">
+                                        <rect key="frame" x="0.0" y="0.0" width="11.5" height="12"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="11.5" id="kqN-1B-1sg"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.40000000596046448" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4,6" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z8G-uI-g0m">
+                                        <rect key="frame" x="14.5" y="0.0" width="193.5" height="12"/>
+                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="10"/>
+                                        <color key="textColor" name="292E39"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                    </stackView>
+                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="vim-K3-E1Z">
+                        <rect key="frame" x="16" y="0.0" width="70" height="70"/>
+                    </activityIndicatorView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="j3c-mj-f8q" secondAttribute="bottom" constant="16" id="4UA-Ax-gGv"/>
+                    <constraint firstItem="TXv-HH-hXf" firstAttribute="width" secondItem="j3c-mj-f8q" secondAttribute="width" multiplier="0.25" constant="1" id="EIz-KI-4U0"/>
+                    <constraint firstItem="j3c-mj-f8q" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="EwY-le-CYS"/>
+                    <constraint firstItem="vim-K3-E1Z" firstAttribute="centerY" secondItem="j3c-mj-f8q" secondAttribute="centerY" id="Gfb-ta-3iu"/>
+                    <constraint firstItem="vim-K3-E1Z" firstAttribute="height" secondItem="j3c-mj-f8q" secondAttribute="height" id="PzL-na-Ti1"/>
+                    <constraint firstItem="jAW-8o-b3d" firstAttribute="centerY" secondItem="j3c-mj-f8q" secondAttribute="centerY" id="TEL-FS-QFa"/>
+                    <constraint firstItem="j3c-mj-f8q" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="aSQ-wX-PXE"/>
+                    <constraint firstItem="vim-K3-E1Z" firstAttribute="centerX" secondItem="j3c-mj-f8q" secondAttribute="centerX" id="bcs-Lp-aTR"/>
+                    <constraint firstItem="j3c-mj-f8q" firstAttribute="bottom" secondItem="TXv-HH-hXf" secondAttribute="bottom" constant="-2" id="cSk-PO-nSO"/>
+                    <constraint firstItem="jAW-8o-b3d" firstAttribute="leading" secondItem="j3c-mj-f8q" secondAttribute="trailing" constant="10" id="eLX-FY-ja7"/>
+                    <constraint firstItem="j3c-mj-f8q" firstAttribute="trailing" secondItem="TXv-HH-hXf" secondAttribute="trailing" constant="5" id="jTq-Dz-5rh"/>
+                    <constraint firstItem="TXv-HH-hXf" firstAttribute="width" secondItem="TXv-HH-hXf" secondAttribute="height" multiplier="1:1" id="kGK-u7-tlI"/>
+                    <constraint firstAttribute="trailing" secondItem="jAW-8o-b3d" secondAttribute="trailing" constant="16" id="sig-PT-BaG"/>
+                    <constraint firstItem="vim-K3-E1Z" firstAttribute="width" secondItem="j3c-mj-f8q" secondAttribute="width" id="uUK-0m-Ufx"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="activityIndicatorView" destination="vim-K3-E1Z" id="5QZ-yN-jxC"/>
+                <outlet property="categoryLabel" destination="q3X-j8-NFF" id="ORo-he-5HM"/>
+                <outlet property="fullNameLabel" destination="DcT-nv-m9t" id="a4N-gy-awS"/>
+                <outlet property="ratingLabel" destination="z8G-uI-g0m" id="gTh-Kf-QeB"/>
+                <outlet property="verifiedImageView" destination="TXv-HH-hXf" id="ROL-aR-eXv"/>
+                <outlet property="workerCompanyImageView" destination="j3c-mj-f8q" id="b5P-bc-uFp"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="171.09375"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon_star" width="12" height="12"/>
+        <image name="icon_verified_user" width="24" height="24"/>
+        <namedColor name="292E39">
+            <color red="0.16078431372549021" green="0.1803921568627451" blue="0.22352941176470589" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

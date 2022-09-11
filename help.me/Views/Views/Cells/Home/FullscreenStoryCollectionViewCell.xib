@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Medium.ttf">
+            <string>Roboto-Medium</string>
+        </array>
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="FullscreenStoryCollectionViewCell" customModule="help_me" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="MV5-FI-lvM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image_top_bottom_gradient" translatesAutoresizingMaskIntoConstraints="NO" id="F7E-XA-dwA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3n4-wW-jNr">
+                        <rect key="frame" x="0.0" y="44" width="100" height="4"/>
+                        <color key="backgroundColor" name="FFFFFF"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="4" id="T6z-8d-KZ7"/>
+                            <constraint firstAttribute="width" constant="100" id="ZIk-CX-42R"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="89d-f5-ZNB">
+                        <rect key="frame" x="16" y="63" width="0.0" height="0.0"/>
+                        <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="16"/>
+                        <color key="textColor" name="FFFFFF"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q7A-Lm-HVO">
+                        <rect key="frame" x="26" y="525.5" width="323" height="42.5"/>
+                        <string key="text">Description and information about this screen, or this product. Also there need to be button to read more details abot company or offer</string>
+                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="12"/>
+                        <color key="textColor" name="FFFFFF"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qQo-Za-Vgg">
+                        <rect key="frame" x="153.5" y="598" width="68" height="29"/>
+                        <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="14"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                        <state key="normal" title="Read more">
+                            <color key="titleColor" name="FFFFFF"/>
+                        </state>
+                        <connections>
+                            <action selector="readMoreButtonAction:" destination="gTV-IL-0wX" eventType="touchUpInside" id="yvb-xm-JQl"/>
+                        </connections>
+                    </button>
+                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="yj4-tb-GPg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    </activityIndicatorView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="F7E-XA-dwA" firstAttribute="bottom" secondItem="MV5-FI-lvM" secondAttribute="bottom" id="1n8-Hu-75j"/>
+                <constraint firstItem="F7E-XA-dwA" firstAttribute="trailing" secondItem="MV5-FI-lvM" secondAttribute="trailing" id="1ud-AJ-82G"/>
+                <constraint firstItem="MV5-FI-lvM" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="3Fo-aN-RWY"/>
+                <constraint firstAttribute="trailing" secondItem="MV5-FI-lvM" secondAttribute="trailing" id="8sw-dr-Y1K"/>
+                <constraint firstItem="yj4-tb-GPg" firstAttribute="width" secondItem="MV5-FI-lvM" secondAttribute="width" id="B0g-A5-hVU"/>
+                <constraint firstItem="qQo-Za-Vgg" firstAttribute="top" secondItem="q7A-Lm-HVO" secondAttribute="bottom" constant="30" id="Erc-ZH-7P3"/>
+                <constraint firstItem="q7A-Lm-HVO" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="26" id="LVR-NR-8kh"/>
+                <constraint firstItem="89d-f5-ZNB" firstAttribute="top" secondItem="3n4-wW-jNr" secondAttribute="bottom" constant="15" id="P2D-vH-HYV"/>
+                <constraint firstItem="qQo-Za-Vgg" firstAttribute="centerX" secondItem="q7A-Lm-HVO" secondAttribute="centerX" id="PBo-w3-x9A"/>
+                <constraint firstItem="yj4-tb-GPg" firstAttribute="height" secondItem="MV5-FI-lvM" secondAttribute="height" id="R2S-cI-lPB"/>
+                <constraint firstItem="F7E-XA-dwA" firstAttribute="leading" secondItem="MV5-FI-lvM" secondAttribute="leading" id="RXr-qp-FSa"/>
+                <constraint firstItem="MV5-FI-lvM" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="XyJ-vT-hXt"/>
+                <constraint firstItem="F7E-XA-dwA" firstAttribute="top" secondItem="MV5-FI-lvM" secondAttribute="top" id="gQp-1m-BM1"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="89d-f5-ZNB" secondAttribute="trailing" constant="71" id="lZS-XC-89h"/>
+                <constraint firstAttribute="bottom" secondItem="MV5-FI-lvM" secondAttribute="bottom" id="lfu-Fs-Wkg"/>
+                <constraint firstItem="yj4-tb-GPg" firstAttribute="centerY" secondItem="MV5-FI-lvM" secondAttribute="centerY" id="nta-p2-BXk"/>
+                <constraint firstItem="89d-f5-ZNB" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="16" id="peA-8f-CT9"/>
+                <constraint firstAttribute="bottom" secondItem="qQo-Za-Vgg" secondAttribute="bottom" constant="40" id="pyv-FT-M31"/>
+                <constraint firstItem="yj4-tb-GPg" firstAttribute="centerX" secondItem="MV5-FI-lvM" secondAttribute="centerX" id="qCj-JF-Tex"/>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="top" secondItem="3n4-wW-jNr" secondAttribute="top" id="qmq-S7-9kO"/>
+                <constraint firstAttribute="trailing" secondItem="q7A-Lm-HVO" secondAttribute="trailing" constant="26" id="r98-zR-tCg"/>
+                <constraint firstItem="3n4-wW-jNr" firstAttribute="leading" secondItem="ZTg-uK-7eu" secondAttribute="leading" id="z8p-eP-5TC"/>
+            </constraints>
+            <connections>
+                <outlet property="activityIndicatorView" destination="yj4-tb-GPg" id="fim-sq-uJb"/>
+                <outlet property="descriptionLabel" destination="q7A-Lm-HVO" id="eWL-gd-gs4"/>
+                <outlet property="progressView" destination="3n4-wW-jNr" id="ExO-xJ-4Hn"/>
+                <outlet property="progressViewWidthConstraint" destination="ZIk-CX-42R" id="iRh-if-4kh"/>
+                <outlet property="readMoreButton" destination="qQo-Za-Vgg" id="hGg-ff-aLE"/>
+                <outlet property="storyImageView" destination="MV5-FI-lvM" id="B1M-hA-ao1"/>
+                <outlet property="titleLabel" destination="89d-f5-ZNB" id="3Mw-cO-rnq"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="152.67857142857142"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="image_top_bottom_gradient" width="375" height="667"/>
+        <namedColor name="FFFFFF">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

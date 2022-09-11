@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="TopWorkersCompaniesCollectionViewCell" customModule="help_me" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="77" height="126"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="77" height="126"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="WtA-Eo-azJ">
+                        <rect key="frame" x="3.5" y="0.0" width="70" height="70"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="WtA-Eo-azJ" secondAttribute="height" multiplier="1:1" id="O6o-Z8-sb4"/>
+                        </constraints>
+                    </imageView>
+                    <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_verified_user" translatesAutoresizingMaskIntoConstraints="NO" id="xwS-8r-kxB">
+                        <rect key="frame" x="50" y="53.5" width="18.5" height="18.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="xwS-8r-kxB" secondAttribute="height" multiplier="1:1" id="ebq-eC-2yL"/>
+                        </constraints>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="zy9-Dm-oR2">
+                        <rect key="frame" x="24.5" y="112.5" width="28.5" height="12"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_star" translatesAutoresizingMaskIntoConstraints="NO" id="8oA-kG-T1G">
+                                <rect key="frame" x="0.0" y="0.0" width="12" height="12"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4,6" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="llQ-On-QCm">
+                                <rect key="frame" x="15" y="0.0" width="13.5" height="12"/>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="10"/>
+                                <color key="textColor" name="292E39"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Category name..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5ar-7k-vpL">
+                        <rect key="frame" x="0.0" y="99.5" width="77" height="12"/>
+                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="10"/>
+                        <color key="textColor" name="292E39"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Beatrice Avagimyan" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0YJ-DW-Me1">
+                        <rect key="frame" x="0.0" y="76" width="77" height="23.5"/>
+                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="10"/>
+                        <color key="textColor" name="292E39"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="AqJ-Rl-h0Z">
+                        <rect key="frame" x="3.5" y="0.0" width="70" height="70"/>
+                    </activityIndicatorView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="WtA-Eo-azJ" firstAttribute="bottom" secondItem="xwS-8r-kxB" secondAttribute="bottom" constant="-2" id="1Sg-le-hun"/>
+                <constraint firstItem="0YJ-DW-Me1" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="27D-M1-0aO"/>
+                <constraint firstItem="WtA-Eo-azJ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="308-tO-KZ5"/>
+                <constraint firstItem="WtA-Eo-azJ" firstAttribute="trailing" secondItem="xwS-8r-kxB" secondAttribute="trailing" constant="5" id="43D-8x-0v1"/>
+                <constraint firstItem="5ar-7k-vpL" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="6T3-gj-FAy"/>
+                <constraint firstAttribute="trailing" secondItem="WtA-Eo-azJ" secondAttribute="trailing" constant="3.5" id="6t6-RL-avS"/>
+                <constraint firstItem="5ar-7k-vpL" firstAttribute="top" secondItem="0YJ-DW-Me1" secondAttribute="bottom" id="EhW-0h-eh1"/>
+                <constraint firstItem="AqJ-Rl-h0Z" firstAttribute="height" secondItem="WtA-Eo-azJ" secondAttribute="height" id="HQn-5d-tcW"/>
+                <constraint firstItem="AqJ-Rl-h0Z" firstAttribute="width" secondItem="WtA-Eo-azJ" secondAttribute="width" id="QTL-kg-Dv4"/>
+                <constraint firstItem="zy9-Dm-oR2" firstAttribute="top" secondItem="5ar-7k-vpL" secondAttribute="bottom" constant="1" id="TIH-Kb-dS1"/>
+                <constraint firstAttribute="trailing" secondItem="5ar-7k-vpL" secondAttribute="trailing" id="UBL-PD-gyT"/>
+                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="zy9-Dm-oR2" secondAttribute="bottom" id="fxE-Fo-Mn8"/>
+                <constraint firstItem="0YJ-DW-Me1" firstAttribute="top" secondItem="WtA-Eo-azJ" secondAttribute="bottom" constant="6" id="h6A-Fq-wuX"/>
+                <constraint firstItem="xwS-8r-kxB" firstAttribute="width" secondItem="WtA-Eo-azJ" secondAttribute="width" multiplier="0.25" constant="1" id="hbk-nM-eEi"/>
+                <constraint firstAttribute="trailing" secondItem="0YJ-DW-Me1" secondAttribute="trailing" id="hxh-1U-ld7"/>
+                <constraint firstItem="WtA-Eo-azJ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="3.5" id="lJy-OE-GDu"/>
+                <constraint firstItem="AqJ-Rl-h0Z" firstAttribute="centerY" secondItem="WtA-Eo-azJ" secondAttribute="centerY" id="rNV-7A-uFr"/>
+                <constraint firstItem="AqJ-Rl-h0Z" firstAttribute="centerX" secondItem="WtA-Eo-azJ" secondAttribute="centerX" id="s04-zV-uaC"/>
+                <constraint firstItem="zy9-Dm-oR2" firstAttribute="centerX" secondItem="ZTg-uK-7eu" secondAttribute="centerX" id="tFy-m6-XoT"/>
+            </constraints>
+            <connections>
+                <outlet property="activityIndicatorView" destination="AqJ-Rl-h0Z" id="CN3-74-Vxw"/>
+                <outlet property="categoryLabel" destination="5ar-7k-vpL" id="nEu-Wd-vBl"/>
+                <outlet property="fullNameLabel" destination="0YJ-DW-Me1" id="9Tx-GD-6yS"/>
+                <outlet property="ratingLabel" destination="llQ-On-QCm" id="buS-sq-KUZ"/>
+                <outlet property="verifiedImageView" destination="xwS-8r-kxB" id="Jdg-v8-E3v"/>
+                <outlet property="workerCompanyImageView" destination="WtA-Eo-azJ" id="8Ge-ca-M49"/>
+            </connections>
+            <point key="canvasLocation" x="138.40000000000001" y="148.42578710644679"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="icon_star" width="12" height="12"/>
+        <image name="icon_verified_user" width="24" height="24"/>
+        <namedColor name="292E39">
+            <color red="0.16078431372549021" green="0.1803921568627451" blue="0.22352941176470589" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

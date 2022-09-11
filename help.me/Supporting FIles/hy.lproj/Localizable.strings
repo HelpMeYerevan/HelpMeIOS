@@ -1,0 +1,198 @@
+/* 
+  Localizable.strings
+  help.me
+
+  Created by Karen Galoyan on 11/19/21.
+  
+*/
+
+// Sign In
+"signIn_phoneNumberEmailUsername" = "Phone number, Email or Username_AM";
+"signIn_password" = "Password_AM";
+"signIn_signIn" = "Sign in_AM";
+"signIn_forgotYourPassword" = "Forgot your password? ";
+"signIn_recoverIt" = "Recover it_AM";
+"signIn_dontHaveAnAccount" = "Don’t have an account? ";
+"signIn_signUp" = "Sign up_AM";
+"signIn_or" = "Or_AM";
+"signIn_enterAsGuest" = "Enter as guest_AM";
+
+// Recovery
+"recovery_email" = "Email_AM";
+"recovery_sendLinkForNewPassword" = "Send link for new password_AM";
+"recovery_dontHaveAnAccount" = "Don’t have an account? ";
+"recovery_signUp" = "Sign up_AM";
+"recovery_or" = "Or_AM";
+"recovery_enterAsGuest" = "Enter as guest_AM";
+"recovery_back" = "Back_AM";
+
+// Sign Up
+"signUp_phoneNumberRequired" = "Phone Number *_AM";
+"signUp_nameRequired" = "Name *_AM";
+"signUp_emailRequired" = "Email *_AM";
+"signUp_passwordRequired" = "Password *_AM";
+"signUp_confirmPasswordRequired" = "Confirm Password *_AM";
+"signUp_orGetInformationFrom" = "Or get information from_AM";
+"signUp_imUserWhoWantToHireWorker" = "I’m user who want to hire a worker_AM";
+"signUp_alsoIwantToProvideService" = "Also, I want to provide service_AM";
+"signUp_individual" = "Individual_AM";
+"signUp_company" = "Company_AM";
+"signUp_typeOfMyActivity" = "Type of my activity_AM";
+"signUp_whatCanYouDo" = "What can you do?_AM";
+"signUp_youCanSelectThreeItems" = "You can select 3 items_AM";
+"signUp_addDocument" = "Add document_AM";
+"signUp_ifYouWantToBeMarkedUser" = "If you want to be marked user_AM";
+"signUp_back" = "Back_AM";
+"signUp_continue" = "Continue_AM";
+"signUp_save" = "Save_AM";
+"signUp_iHaveAccept" = "I have accept ";
+"signUp_licenseAgreements" = "license agreements_AM";
+
+// Phone Number Verification
+"phoneNumberVerification_phoneNumberVerification" = "Phone number verification_AM";
+"phoneNumberVerification_getSmsVerificationCodeOn" = "Get SMS verification code on_AM";
+"phoneNumberVerification_getVerificationCode" = "Get verification code_AM";
+"phoneNumberVerification_done" = "Done_AM";
+"phoneNumberVerification_back" = "Back_AM";
+
+// Biometric Authorization
+"biometricAuthorization_enableSignInWithTouchID" = "Enable signing in with Touch ID_AM";
+"biometricAuthorization_enableSignInWithFaceID" = "Enable signing in with Face ID_AM";
+"biometricAuthorization_Yes" = "Yes_AM";
+"biometricAuthorization_No" = "No_AM";
+
+// License Agreement
+"licenseAgreement_licenseAgreement" = "License agreement_AM";
+"licenseAgreement_accept" = "Accept_AM";
+
+// Tab Bar
+"tabBar_Home" = "Home_AM";
+"tabBar_Map" = "Map_AM";
+"tabBar_Scan" = "Scan_AM";
+"tabBar_Chat" = "Chat_AM";
+"tabBar_Profile" = "Profile_AM";
+
+// Home
+"home_lastWorks" = "Last works_AM";
+"home_topWorkersCompanies" = "Top workers & companies_AM";
+"home_topCategories" = "Top categories_AM";
+"home_seeAll" = "See all_AM";
+
+// Notification
+"notification_notifications" = "Notifications_AM";
+"notification_emptyNotifications" = "There are no\nany activities_AM";
+
+// Story
+"story_readMore" = "Read more_AM";
+
+// See All
+"seeAll_works" = "Works_AM";
+"seeAll_workers" = "Workers_AM";
+"seeAll_categories" = "Categories_AM";
+"seeAll_last" = "Last_AM";
+"seeAll_oldest" = "Oldest_AM";
+"seeAll_nearByMe" = "Near by me_AM";
+"seeAll_individual" = "Individual_AM";
+"seeAll_company" = "Company_AM";
+"seeAll_verified" = "Verified_AM";
+"seeAll_new" = "New_AM";
+"seeAll_top" = "Top_AM";
+
+// Map
+"map_latest" = "Latest_AM";
+"map_nearByMe" = "Near by me_AM";
+"map_byCategories" = "By Categories_AM";
+"map_accept" = "Accept_AM";
+
+// Offer
+"offer_skipOffer" = "Skip Offer_AM";
+"offer_apply" = "Apply_AM";
+
+// Scan
+"scan_captureAddCurrentJob" = "Capture and add your current job_AM";
+
+// Add Work
+"addWork_addNewWork" = "Add new work_AM";
+"addWork_addCategoriesRequired" = "Add Categories *_AM";
+"addWork_addLocationRequired" = "City, Street, apt *_AM";
+"addWork_price" = "Price_AM";
+"addWork_date" = "dd/mm | time_AM";
+"addWork_cash" = "Cash_AM";
+"addWork_addDescriptionRequired" = "Add Description *_AM";
+"addWork_retry" = "Retry_AM";
+"addWork_addWork" = "Add work_AM";
+
+// Add Photo
+"addPhoto_addNewPhoto" = "Add new photo_AM";
+"addPhoto_addCategoriesRequired" = "Add Categories *_AM";
+"addPhoto_addDescriptionRequired" = "Add Description *_AM";
+"addPhoto_retry" = "Retry_AM";
+"addPhoto_addPhoto" = "Add photo_AM";
+
+// Chat
+
+// Profile
+"profile_profilePage" = "Profile Page_AM";
+"profile_settings" = "Settings_AM";
+"profile_id" = "me id:_AM";
+"profile_gold" = "Gold_AM";
+"profile_silver" = "Silver_AM";
+"profile_bronze" = "Bronze_AM";
+"profile_emptyPhotos" = "You dont have any photos!_AM";
+"profile_addPhoto" = "Add photo_AM";
+"profile_youDontHavePermissionToAddPhotos" = "You don't have permission to add photos!_AM";
+"profile_emptyWorks" = "You dont have any works!_AM";
+"profile_addWork" = "Add work_AM";
+"profile_youDontHavePermissionToAddWorks" = "You don't have permission to add works!_AM";
+"profile_enableAlsoProvideServices" = "Go to settings and enable “Also provide services”_AM";
+"profile_active" = "Active_AM";
+"profile_history" = "History_AM";
+"profile_creditCard" = "Credit/Debit card_AM";
+"profile_addNew" = "Add New_AM";
+"profile_mobile" = "Mobile_AM";
+"profile_eMail" = "E-Mail_AM";
+"profile_alsoProvideServices" = "Also provide services_AM";
+"profile_categories" = "Categories_AM";
+"profile_signInWithTouchID" = "Sign in with Touch ID_AM";
+"profile_signInWithFaceID" = "Sign in with Face ID_AM";
+"profile_language" = "Language_AM";
+"profile_contactUs" = "Contact us_AM";
+"profile_termsConditions" = "Terms and conditions_AM";
+"profile_signOut" = "Sign out_AM";
+
+// Active/History
+"activeHistory_active" = "Active_AM";
+"activeHistory_history" = "History_AM";
+
+// Credit Card
+"creditCard_creditDebitCard" = "Credit/Debit card_AM";
+"creditCard_addNew" = "Add New_AM";
+"creditCard_description" = "Need to add valide Credit/Debit card.\nThank you!_AM";
+"creditCard_cardNumber" = "Card number_AM";
+"creditCard_expirationDate" = "mm/yy_AM";
+"creditCard_cvv" = "CVV_AM";
+"creditCard_cardholder" = "Cardholder Full Name_AM";
+"creditCard_apply" = "Apply_AM";
+
+// Scan Credit Card
+"scanCreditCard_scanCreditDebitCard" = "Scan Credit/Debit card_AM";
+
+// Phone Number
+"phoneNumber_phoneNumber" = "Phone number_AM";
+"phoneNumber_addNew" = "Add new_AM";
+"phoneNumber_description" = "Need to add valide phone number\nWe will send verify code to this number. Thank you!_AM";
+"phoneNumber_addNewPhoneNumber" = "Add new phone number_AM";
+"phoneNumber_apply" = "Apply_AM";
+
+// Email
+"email_email" = "Email_AM";
+"email_addNew" = "Add new_AM";
+"email_description" = "Need to add valide mail address for getting notifiations and other informations from help.me.\nWe will send verify code to this email. Thank you!_AM";
+"email_addNewEmail" = "Add new email_AM";
+"email_apply" = "Apply_AM";
+
+// Language
+"language_languages" = "Languages_AM";
+
+// Contact Us
+"contactUs_contactUs" = "Contact us_AM";

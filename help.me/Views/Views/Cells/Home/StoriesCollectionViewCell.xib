@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Medium.ttf">
+            <string>Roboto-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="StoriesCollectionViewCell" customModule="help_me" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="84" height="130"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="84" height="130"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tfA-Rn-5Vv">
+                        <rect key="frame" x="0.0" y="0.0" width="84" height="130"/>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="53v-iT-oga">
+                        <rect key="frame" x="0.0" y="0.0" width="84" height="130"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UFm-4C-9sf">
+                        <rect key="frame" x="10" y="120" width="64" height="0.0"/>
+                        <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="12"/>
+                        <color key="textColor" name="FFFFFF"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="eQX-EI-snt">
+                        <rect key="frame" x="0.0" y="0.0" width="84" height="130"/>
+                    </activityIndicatorView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="UFm-4C-9sf" secondAttribute="trailing" constant="10" id="1BC-xV-ux6"/>
+                <constraint firstItem="eQX-EI-snt" firstAttribute="width" secondItem="tfA-Rn-5Vv" secondAttribute="width" id="3JU-ah-bsF"/>
+                <constraint firstItem="UFm-4C-9sf" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="6Xy-bU-ncp"/>
+                <constraint firstItem="tfA-Rn-5Vv" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="7Lj-Lu-gZ5"/>
+                <constraint firstAttribute="trailing" secondItem="53v-iT-oga" secondAttribute="trailing" id="8eo-uJ-eWf"/>
+                <constraint firstItem="eQX-EI-snt" firstAttribute="centerY" secondItem="tfA-Rn-5Vv" secondAttribute="centerY" id="9hF-mJ-LNb"/>
+                <constraint firstItem="eQX-EI-snt" firstAttribute="centerX" secondItem="tfA-Rn-5Vv" secondAttribute="centerX" id="Hnm-ua-USO"/>
+                <constraint firstItem="53v-iT-oga" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="IJq-YQ-6YZ"/>
+                <constraint firstItem="eQX-EI-snt" firstAttribute="height" secondItem="tfA-Rn-5Vv" secondAttribute="height" id="JnI-nI-Gq4"/>
+                <constraint firstItem="tfA-Rn-5Vv" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Jpb-vO-96C"/>
+                <constraint firstItem="53v-iT-oga" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Jy6-s8-UIm"/>
+                <constraint firstAttribute="bottom" secondItem="53v-iT-oga" secondAttribute="bottom" id="LOf-FI-j3L"/>
+                <constraint firstAttribute="bottom" secondItem="UFm-4C-9sf" secondAttribute="bottom" constant="10" id="dpd-hC-eIz"/>
+                <constraint firstAttribute="trailing" secondItem="tfA-Rn-5Vv" secondAttribute="trailing" id="eb6-Pj-7Xa"/>
+                <constraint firstAttribute="bottom" secondItem="tfA-Rn-5Vv" secondAttribute="bottom" id="vLe-mE-YKY"/>
+            </constraints>
+            <connections>
+                <outlet property="activityIndicatorView" destination="eQX-EI-snt" id="ubO-B5-qjM"/>
+                <outlet property="gradientImageView" destination="53v-iT-oga" id="OLJ-Be-OUv"/>
+                <outlet property="storyImageView" destination="tfA-Rn-5Vv" id="9ce-1o-FRI"/>
+                <outlet property="titleLabel" destination="UFm-4C-9sf" id="aIz-Zl-uMR"/>
+            </connections>
+            <point key="canvasLocation" x="139" y="153"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <namedColor name="FFFFFF">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

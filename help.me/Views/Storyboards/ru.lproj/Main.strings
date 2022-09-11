@@ -1,0 +1,150 @@
+
+/* Class = "UILabel"; text = "Cash"; ObjectID = "0AG-ZO-IhM"; */
+"0AG-ZO-IhM.text" = "Cash";
+
+/* Class = "UITabBarItem"; title = "Chat"; ObjectID = "0PD-Nc-eCc"; */
+"0PD-Nc-eCc.title" = "Chat";
+
+/* Class = "UILabel"; text = "Karen Petrosyan"; ObjectID = "2UM-tn-RP1"; */
+"2UM-tn-RP1.text" = "Karen Petrosyan";
+
+/* Class = "UIButton"; normalTitle = "Works"; ObjectID = "30h-hl-Dap"; */
+"30h-hl-Dap.normalTitle" = "Works";
+
+/* Class = "UILabel"; text = "Capture and add your current job"; ObjectID = "3yf-Jc-er7"; */
+"3yf-Jc-er7.text" = "Capture and add your current job";
+
+/* Class = "UILabel"; text = "28,000 AMD"; ObjectID = "5Jz-XL-h1a"; */
+"5Jz-XL-h1a.text" = "28,000 AMD";
+
+/* Class = "UIButton"; normalTitle = "Retry"; ObjectID = "6T5-5n-VH1"; */
+"6T5-5n-VH1.normalTitle" = "Retry";
+
+/* Class = "UISegmentedControl"; 6ZD-Yw-88x.segmentTitles[0] = "New"; ObjectID = "6ZD-Yw-88x"; */
+"6ZD-Yw-88x.segmentTitles[0]" = "New";
+
+/* Class = "UISegmentedControl"; 6ZD-Yw-88x.segmentTitles[1] = "Used"; ObjectID = "6ZD-Yw-88x"; */
+"6ZD-Yw-88x.segmentTitles[1]" = "Used";
+
+/* Class = "UILabel"; text = "Add Categories *"; ObjectID = "77d-rk-bYr"; */
+"77d-rk-bYr.text" = "Add Categories *";
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "7IF-li-HLe"; */
+"7IF-li-HLe.title" = "Home";
+
+/* Class = "UILabel"; text = "Time"; ObjectID = "7Uq-aa-Xky"; */
+"7Uq-aa-Xky.text" = "Time";
+
+/* Class = "UITextField"; placeholder = "Price"; ObjectID = "7jy-Pn-P3h"; */
+"7jy-Pn-P3h.placeholder" = "Price";
+
+/* Class = "UILabel"; text = "Last works"; ObjectID = "8cw-rV-dGg"; */
+"8cw-rV-dGg.text" = "Last works";
+
+/* Class = "UILabel"; text = "Add Description"; ObjectID = "A9x-wa-MGn"; */
+"A9x-wa-MGn.text" = "Add Description";
+
+/* Class = "UIButton"; normalTitle = "Add new offer"; ObjectID = "BOP-6e-kZU"; */
+"BOP-6e-kZU.normalTitle" = "Add new offer";
+
+/* Class = "UILabel"; text = "There are no  any messages"; ObjectID = "FRZ-bd-UbQ"; */
+"FRZ-bd-UbQ.text" = "There are no  any messages";
+
+/* Class = "UITextField"; placeholder = "Add Description"; ObjectID = "LC7-DH-Cf6"; */
+"LC7-DH-Cf6.placeholder" = "Add Description";
+
+/* Class = "UILabel"; text = "Coca Cola"; ObjectID = "LvW-r4-eaC"; */
+"LvW-r4-eaC.text" = "Coca Cola";
+
+/* Class = "UIButton"; normalTitle = "See all"; ObjectID = "MaE-Ol-8yV"; */
+"MaE-Ol-8yV.normalTitle" = "See all";
+
+/* Class = "UITabBarItem"; title = "Map"; ObjectID = "Mo5-rG-IsE"; */
+"Mo5-rG-IsE.title" = "Map";
+
+/* Class = "UITabBarItem"; title = "Profile"; ObjectID = "Oqb-bP-qMN"; */
+"Oqb-bP-qMN.title" = "Profile";
+
+/* Class = "UITextField"; placeholder = "Time"; ObjectID = "TBW-tV-Uw7"; */
+"TBW-tV-Uw7.placeholder" = "Time";
+
+/* Class = "UILabel"; text = "28,000 AMD"; ObjectID = "Ww9-FJ-Ahs"; */
+"Ww9-FJ-Ahs.text" = "28,000 AMD";
+
+/* Class = "UITabBarItem"; title = "Scan"; ObjectID = "X8W-U0-p6E"; */
+"X8W-U0-p6E.title" = "Scan";
+
+/* Class = "UIButton"; normalTitle = "Read more"; ObjectID = "XRD-D4-s7B"; */
+"XRD-D4-s7B.normalTitle" = "Read more";
+
+/* Class = "UIButton"; normalTitle = "See all"; ObjectID = "YTj-hR-Obw"; */
+"YTj-hR-Obw.normalTitle" = "See all";
+
+/* Class = "UITextField"; placeholder = "Add Location *"; ObjectID = "b7t-0v-73Q"; */
+"b7t-0v-73Q.placeholder" = "Add Location *";
+
+/* Class = "UISegmentedControl"; dFm-6v-Mfc.segmentTitles[0] = "Latest"; ObjectID = "dFm-6v-Mfc"; */
+"dFm-6v-Mfc.segmentTitles[0]" = "Latest";
+
+/* Class = "UISegmentedControl"; dFm-6v-Mfc.segmentTitles[1] = "Near by me "; ObjectID = "dFm-6v-Mfc"; */
+"dFm-6v-Mfc.segmentTitles[1]" = "Near by me ";
+
+/* Class = "UISegmentedControl"; dFm-6v-Mfc.segmentTitles[2] = "By Categories"; ObjectID = "dFm-6v-Mfc"; */
+"dFm-6v-Mfc.segmentTitles[2]" = "By Categories";
+
+/* Class = "UIButton"; normalTitle = "Both"; ObjectID = "e2S-b1-kOV"; */
+"e2S-b1-kOV.normalTitle" = "Both";
+
+/* Class = "UITextField"; placeholder = "Add Categories *"; ObjectID = "eJj-GY-4x7"; */
+"eJj-GY-4x7.placeholder" = "Add Categories *";
+
+/* Class = "UILabel"; text = "Top categories"; ObjectID = "eOB-Pg-4Rz"; */
+"eOB-Pg-4Rz.text" = "Top categories";
+
+/* Class = "UIButton"; normalTitle = "Workers"; ObjectID = "eQr-4l-42B"; */
+"eQr-4l-42B.normalTitle" = "Workers";
+
+/* Class = "UIButton"; normalTitle = "Product"; ObjectID = "f0L-wJ-V8e"; */
+"f0L-wJ-V8e.normalTitle" = "Product";
+
+/* Class = "UILabel"; text = "Top workers & companies"; ObjectID = "hXQ-qH-z6a"; */
+"hXQ-qH-z6a.text" = "Top workers & companies";
+
+/* Class = "UILabel"; text = "Description and information about this screen, or this product. Also there need to be button to read more details abot company or offer"; ObjectID = "iRj-A0-jhg"; */
+"iRj-A0-jhg.text" = "Description and information about this screen, or this product. Also there need to be button to read more details abot company or offer";
+
+/* Class = "UILabel"; text = "Add Location *"; ObjectID = "jZ2-Wv-wW6"; */
+"jZ2-Wv-wW6.text" = "Add Location *";
+
+/* Class = "UIButton"; normalTitle = "Profile page"; ObjectID = "jdn-ED-c5M"; */
+"jdn-ED-c5M.normalTitle" = "Profile page";
+
+/* Class = "UIButton"; normalTitle = "Services"; ObjectID = "jtM-bE-ELM"; */
+"jtM-bE-ELM.normalTitle" = "Services";
+
+/* Class = "UIButton"; normalTitle = "Add offer"; ObjectID = "lPh-zp-eaq"; */
+"lPh-zp-eaq.normalTitle" = "Add offer";
+
+/* Class = "UILabel"; text = "8786"; ObjectID = "mX4-gm-QoE"; */
+"mX4-gm-QoE.text" = "8786";
+
+/* Class = "UILabel"; text = "Other"; ObjectID = "mgp-pa-r85"; */
+"mgp-pa-r85.text" = "Other";
+
+/* Class = "UILabel"; text = "Price"; ObjectID = "nG3-kd-Kwq"; */
+"nG3-kd-Kwq.text" = "Price";
+
+/* Class = "UIButton"; normalTitle = "See all"; ObjectID = "o6i-wZ-KYo"; */
+"o6i-wZ-KYo.normalTitle" = "See all";
+
+/* Class = "UIButton"; normalTitle = "Categories"; ObjectID = "saZ-gQ-9p3"; */
+"saZ-gQ-9p3.normalTitle" = "Categories";
+
+/* Class = "UISegmentedControl"; xAd-ev-lPS.segmentTitles[0] = "Last"; ObjectID = "xAd-ev-lPS"; */
+"xAd-ev-lPS.segmentTitles[0]" = "Last";
+
+/* Class = "UISegmentedControl"; xAd-ev-lPS.segmentTitles[1] = "Oldest"; ObjectID = "xAd-ev-lPS"; */
+"xAd-ev-lPS.segmentTitles[1]" = "Oldest";
+
+/* Class = "UISegmentedControl"; xAd-ev-lPS.segmentTitles[2] = "Near by me"; ObjectID = "xAd-ev-lPS"; */
+"xAd-ev-lPS.segmentTitles[2]" = "Near by me";

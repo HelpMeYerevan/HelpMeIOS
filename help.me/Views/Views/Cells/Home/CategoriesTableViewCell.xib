@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="dyy-Tx-UGk" customClass="CategoriesTableViewCell" customModule="help_me" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="dyy-Tx-UGk" id="ZpO-BL-aks">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AWG-WC-Rf7">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                        <connections>
+                            <action selector="selectButtonAction:" destination="dyy-Tx-UGk" eventType="touchUpInside" id="0VQ-Mc-kNa"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Category name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q4Q-KV-xrX">
+                        <rect key="frame" x="36" y="0.0" width="284" height="43"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="43" id="GZj-tU-TYC"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                        <color key="textColor" name="292E39"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4zV-He-RQj">
+                        <rect key="frame" x="16" y="43" width="304" height="1"/>
+                        <color key="backgroundColor" name="E5E5E5"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="xWM-Lw-voB"/>
+                        </constraints>
+                    </view>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_checkmark_deselected" translatesAutoresizingMaskIntoConstraints="NO" id="uDS-cg-vXq">
+                        <rect key="frame" x="16" y="14" width="15" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="B2c-n5-qIi"/>
+                            <constraint firstAttribute="width" constant="15" id="uHB-JI-5R8"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="uDS-cg-vXq" firstAttribute="centerY" secondItem="Q4Q-KV-xrX" secondAttribute="centerY" id="5DP-85-xcM"/>
+                    <constraint firstAttribute="trailing" secondItem="4zV-He-RQj" secondAttribute="trailing" id="8GY-j1-UpK"/>
+                    <constraint firstItem="uDS-cg-vXq" firstAttribute="leading" secondItem="4zV-He-RQj" secondAttribute="leading" id="FD1-ml-fsF"/>
+                    <constraint firstItem="AWG-WC-Rf7" firstAttribute="leading" secondItem="ZpO-BL-aks" secondAttribute="leading" id="JfG-iF-AWN"/>
+                    <constraint firstItem="4zV-He-RQj" firstAttribute="leading" secondItem="ZpO-BL-aks" secondAttribute="leading" constant="16" id="dQh-B4-Lnj"/>
+                    <constraint firstAttribute="trailing" secondItem="AWG-WC-Rf7" secondAttribute="trailing" id="eXF-3M-4bd"/>
+                    <constraint firstAttribute="bottom" secondItem="4zV-He-RQj" secondAttribute="bottom" id="f71-vj-mLa"/>
+                    <constraint firstItem="4zV-He-RQj" firstAttribute="top" secondItem="AWG-WC-Rf7" secondAttribute="bottom" id="gTi-2t-hkS"/>
+                    <constraint firstItem="AWG-WC-Rf7" firstAttribute="top" secondItem="ZpO-BL-aks" secondAttribute="top" id="hLp-vn-uuB"/>
+                    <constraint firstAttribute="trailing" secondItem="Q4Q-KV-xrX" secondAttribute="trailing" id="kPQ-xH-tX7"/>
+                    <constraint firstItem="Q4Q-KV-xrX" firstAttribute="leading" secondItem="uDS-cg-vXq" secondAttribute="trailing" constant="5" id="p4w-km-h1B"/>
+                    <constraint firstItem="Q4Q-KV-xrX" firstAttribute="top" secondItem="ZpO-BL-aks" secondAttribute="top" id="sb6-TU-UKE"/>
+                    <constraint firstItem="4zV-He-RQj" firstAttribute="top" secondItem="Q4Q-KV-xrX" secondAttribute="bottom" id="zCS-0H-807"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="cKL-c3-QWm"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="categoryTitleLabel" destination="Q4Q-KV-xrX" id="fCg-LY-dBy"/>
+                <outlet property="checkmarkImageView" destination="uDS-cg-vXq" id="af4-YM-aGf"/>
+                <outlet property="separatorView" destination="4zV-He-RQj" id="Y0O-k7-qaH"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="152.67857142857142"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon_checkmark_deselected" width="16" height="16"/>
+        <namedColor name="292E39">
+            <color red="0.16078431372549021" green="0.1803921568627451" blue="0.22352941176470589" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="E5E5E5">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.89803921568627454" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
