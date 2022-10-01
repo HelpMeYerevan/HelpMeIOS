@@ -23,10 +23,10 @@ public struct ConfigDataProvider {
 //
     // MARK: Properties
     public static var baseURL: String {
-        return "https://helpme.llc"
+        return "ec2-54-91-138-39.compute-1.amazonaws.com"
     }
     public static var baseIP: String {
-        return "http://164.68.116.111"
+        return "http://54.91.138.39"
     }
 //    public static var instagramURL: URL? {
 //        return URL(string: "https://www.instagram.com/duna_duo/")
