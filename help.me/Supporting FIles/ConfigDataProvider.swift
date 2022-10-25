@@ -23,7 +23,7 @@ public struct ConfigDataProvider {
 //
     // MARK: Properties
     public static var baseURL: String {
-        return "ec2-54-91-138-39.compute-1.amazonaws.com"
+        return "http://35.78.101.151"
     }
     public static var baseIP: String {
         return "http://54.91.138.39"
